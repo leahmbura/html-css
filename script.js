@@ -1,8 +1,10 @@
-// IF ELSE CONDITION
-let num=5; //10
-if (num>0){
-    console.log("positive number")
+let number=-5; //change this number to test
+if  (number >0) {
+    console.log ("the number is positive")
 }
-else{
-    console.log("negative number")
+else if(number <0) {
+    console.log("the number is negative")
+}
+else {
+    console.log("the number is zero")
 }
